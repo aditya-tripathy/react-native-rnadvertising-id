@@ -1,8 +1,8 @@
 {
   "name": "react-native-rnadvertising-id",
   "title": "React Native Rnadvertising Id",
-  "version": "1.0.0",
-  "description": "TODO",
+  "version": "1.0.7",
+  "description": "Android advertisement id capture",
   "main": "index.js",
   "files": [
     "README.md",
@@ -16,19 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-rnadvertising-id.git",
-    "baseUrl": "https://github.com/github_account/react-native-rnadvertising-id"
+    "url": "git+https://github.com/aditya-tripathy/react-native-rnadvertising-id.git",
+    "baseUrl": "https://github.com/aditya-tripathy/react-native-rnadvertising-id"
   },
   "keywords": [
     "react-native"
   ],
-  "author": {
-    "name": "Your Name",
-    "email": "yourname@email.com"
-  },
+  "author": "Your Name <yourname@email.com>",
   "license": "MIT",
   "licenseFilename": "LICENSE",
-  "readmeFilename": "README.md",
   "peerDependencies": {
     "react": "^16.8.1",
     "react-native": ">=0.60.0-rc.0 <1.0.x"
@@ -37,7 +33,11 @@
     "react": "^16.9.0",
     "react-native": "^0.61.5"
   },
-  "dependencies": {
-    "packages": "link:../"
+  "bugs": {
+    "url": "https://github.com/aditya-tripathy/react-native-rnadvertising-id/issues"
+  },
+  "homepage": "https://github.com/aditya-tripathy/react-native-rnadvertising-id#readme",
+  "directories": {
+    "example": "example"
   }
 }

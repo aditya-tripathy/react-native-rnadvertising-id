@@ -34,8 +34,6 @@ buildscript {
         }
         dependencies {
             classpath 'com.android.tools.build:gradle:3.4.1'
-            implementation 'androidx.ads:ads-identifier:1.0.0-alpha01'
-            implementation 'com.google.guava:guava:28.0-android'
         }
     }
 }
@@ -75,6 +73,8 @@ repositories {
 dependencies {
     //noinspection GradleDynamicVersion
     implementation 'com.facebook.react:react-native:+'  // From node_modules
+    implementation 'androidx.ads:ads-identifier:1.0.0-alpha04'
+    implementation 'com.google.guava:guava:28.0-android'
 }
 
 def configureReactNativePom(def pom) {
